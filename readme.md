@@ -1,3 +1,6 @@
+### Dependencies
+TODO
+
 ### PDF generation
 xelatex cv.tex cv.pdf
 
