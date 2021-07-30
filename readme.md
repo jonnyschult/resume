@@ -1,5 +1,6 @@
 ### Dependencies
-TODO
+Install `xelatex` via your package manager (e.g., `brew install xelatex` for macOS).
+Install `docker`.
 
 ### PDF generation
 xelatex cv.tex cv.pdf
