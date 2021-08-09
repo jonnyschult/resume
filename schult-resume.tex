@@ -16,7 +16,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{fontawesome}
-\input{glyphtounicode}
+% \input{glyphtounicode}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -43,7 +43,7 @@
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
+% \pdfgentounicode=1
 
 %-------------------------
 % Custom commands
@@ -139,7 +139,7 @@
 
 %-----------ABOUT ME-----------------
 \section{About Me}
-I want to help the world become a better place. I want to learn how to use the tools that the world runs on to make it a better place. Even better if I get to do that in a team.
+Kind, curious, and tall software engineer. I want to learn from and contribute to a collaborative team.
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -165,10 +165,10 @@ I want to help the world become a better place. I want to learn how to use the t
         \resumeItem{Taught ethics and philosophy 101}
       \resumeItemListEnd
 
-  \resumeHeading{University of Wisconsin-Milwaukee}{Milwaukee, WI}{Teaching Assistant}{Aug 2014 - May 2016}
-      \resumeItemListStart
-        \resumeItem{Met weekly with students to teach sentential and predicate logic, modern, medieval, and ancient philosophy}
-      \resumeItemListEnd
+  % \resumeHeading{University of Wisconsin-Milwaukee}{Milwaukee, WI}{Teaching Assistant}{Aug 2014 - May 2016}
+  %     \resumeItemListStart
+  %       \resumeItem{Met weekly with students to teach sentential and predicate logic, modern, medieval, and ancient philosophy}
+  %     \resumeItemListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
@@ -179,36 +179,42 @@ I want to help the world become a better place. I want to learn how to use the t
         \resumeItem{Integrated with Strava and Fitbit public APIs}
         \resumeItem{\color{RoyalBlue}\href{https://github.com/jonnyschult/runnersheetsClient}{Frontend code}, \color{RoyalBlue}\href{https://github.com/jonnyschult/runnersheetsServer}{Backend code}}
       \resumeItemListEnd
+    \projectHeading{Sudoku Solver with CLI}
+      \resumeItemListStart
+        \resumeItem{Node based, TypeScript sudoku solver designed to solve any sudoku using disjunctive syllogism and indirect proof}
+        \resumeItem{Tested against 350,000 test puzzles and Al Escargot, the hardest known sudoku}
+        \resumeItem{\color{RoyalBlue}\href{https://github.com/jonnyschult/sudokuSolver}{Code}}
+      \resumeItemListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
-    \educationEntryWithFivePlaceholders
+    \educationEntryWithSixPlaceholders
       {Eleven Fifty Academy}
       {Indianapolis, IN}
       {Web Development Immersive Learning Program}
       {Dec 2020}
       {Immersive program using real-world, project-based learning}
+      {\textit{EFA Core Value Award: Quality}} 
   \resumeSubHeadingListEnd
 
   \resumeSubHeadingListStart
     \educationEntryWithFivePlaceholders
       {University of Wisconsin-Milwaukee}
       {Milwaukee, WI}
-      {Master of Arts in Philosphy}
+      {Master of Arts in Philosophy}
       {May 2016}
       {Philosophy of Science, Philosophy of Language, Truth Semantics, and American Pragmatism}
   \resumeSubHeadingListEnd
 
   \resumeSubHeadingListStart
-    \educationEntryWithSevenPlaceholders
+    \educationEntryWithSixPlaceholders
       {Bethel University}
       {Mishawaka, IN}
       {Double Major: Philosophy and Biblical Literature}
       {April 2014}
       {Philosophy of Religion, Philosophical Theology,}
       {Critical Historical Method, Koine Greek, Ancient Hebrew}
-      {\textit{EFA Core Value Award: Quality}}
   \resumeSubHeadingListEnd
 
 \end{document}
